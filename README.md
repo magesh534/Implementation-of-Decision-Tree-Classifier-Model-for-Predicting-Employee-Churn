@@ -8,10 +8,12 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1. import the required libraries.
+2. Upload and read the dataset.
+3. Check for any null values using the isnull() function
+4. From sklearn.tree import DecisionTreeClassifier and use criterion as entropy.
+5.  Find the accuracy of the model and predict the required values by importing the required
+module from sklearn.
 
 ## Program:
 ```
@@ -59,17 +61,22 @@ dt.predict([[0.5,0.8,9,260,6,0,1,2]])
 ```
 
 ## Output:
-# data.info():
+#Initial data set
 ![Screenshot 2023-10-12 092325](https://github.com/magesh534/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/135577936/811c0f72-054a-4099-ba6e-ef782eeb36e5)
+#Data Info
 ![Screenshot 2023-10-12 092854](https://github.com/magesh534/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/135577936/7e480048-75aa-46c0-96bd-4defba482e34)
+#Optimization of null values
 ![Screenshot 2023-10-12 092956](https://github.com/magesh534/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/135577936/d88449d3-eaa4-40ea-b695-92e358955e5e)
+#Assignment of X and Y values
 ![Screenshot 2023-10-12 093249](https://github.com/magesh534/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/135577936/775406df-949b-439d-8a27-0c8425a24b54)
+#Converting string literals to numerical values using label encoder
 ![Screenshot 2023-10-12 093304](https://github.com/magesh534/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/135577936/5d8fde41-30a8-49fd-953c-acca1b09318c)
+Accuracy
 
 ![Screenshot 2023-10-12 093318](https://github.com/magesh534/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/135577936/bfe39807-23a7-4ffb-8243-04e8ab1c8833)
 
 ![Screenshot 2023-10-12 093334](https://github.com/magesh534/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/135577936/c96f10c1-ea52-4589-b8f3-e6c70b1703ea)
-
+#Prediction
 ![Screenshot 2023-10-12 093352](https://github.com/magesh534/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/135577936/779e97fd-c1ad-4747-8ab0-dcfb6d7107d7)
 
 
